@@ -1,8 +1,4 @@
 ﻿# inkxide-Auto-Plant-Watering-V2-JAVA
-Huzaifa Bin Ahmer & 220297388
-EECS 1021 Section Z Term W
-Date: 2024-04-12
-Main Project
 
 Introduction:
 
@@ -29,6 +25,7 @@ Components List:
 •	Water Outlet
 •	Container for spills
 •	Pot for Plant
+
 Procedure:
 
 Process: An Arduino Grove Board was connected to a MOSFET and Moisture sensor, and a program on IntelliJ IDEA in Java was written, where when the moisture sensor senses the soil is dry, the MOSFET sensor turns the water pump on to deliver water to the soil, turns off the water pump when moisture sensor senses that the soil is wet and waits until the soil is dry again to start the process over again. Results [CLO5]: The Automated Plant Watering system with the code ran the program, pumped water into the soil when dry, and stopped pumping water when wet.
